@@ -1,0 +1,146 @@
+{
+  "quiz": "Siglas de Informática Geral Resumo",
+  "disciplina": "Inglês",
+  "questoes": [
+    {
+      "questao": "What does CPU stand for?",
+      "perg1": "Central Processing Unit",
+      "perg2": "Computer Personal Unit",
+      "perg3": "Central Program Utility",
+      "resposta": 1
+    },
+    {
+      "questao": "What does RAM stand for?",
+      "perg1": "Remote Access Memory",
+      "perg2": "Read and Modify",
+      "perg3": "Random Access Memory",
+      "resposta": 3
+    },
+    {
+      "questao": "What does USB stand for?",
+      "perg1": "Universal System Bridge",
+      "perg2": "Universal Serial Bus",
+      "perg3": "Unified Storage Base",
+      "resposta": 2
+    },
+    {
+      "questao": "What does HTML stand for?",
+      "perg1": "HyperText Markup Language",
+      "perg2": "High Transfer Mode Link",
+      "perg3": "HyperText Management Layer",
+      "resposta": 1
+    },
+    {
+      "questao": "What does URL stand for?",
+      "perg1": "User Resource Link",
+      "perg2": "Uniform Record Locator",
+      "perg3": "Uniform Resource Locator",
+      "resposta": 3
+    },
+    {
+      "questao": "What does GPU stand for?",
+      "perg1": "General Processing Utility",
+      "perg2": "Graphics Processing Unit",
+      "perg3": "Global Program Upload",
+      "resposta": 2
+    },
+    {
+      "questao": "What does OS stand for?",
+      "perg1": "Online Server",
+      "perg2": "Output System",
+      "perg3": "Operating System",
+      "resposta": 3
+    },
+    {
+      "questao": "What does IP stand for?",
+      "perg1": "Internet Protocol",
+      "perg2": "Internal Processor",
+      "perg3": "Input Port",
+      "resposta": 1
+    },
+    {
+      "questao": "What does Wi-Fi stand for?",
+      "perg1": "Wide Fidelity",
+      "perg2": "Wireless Fidelity",
+      "perg3": "Wired Fiber",
+      "resposta": 2
+    },
+    {
+      "questao": "What does HTTP stand for?",
+      "perg1": "HyperText Transfer Protocol",
+      "perg2": "High Traffic Transfer Process",
+      "perg3": "HyperText Transmission Path",
+      "resposta": 1
+    },
+    {
+      "questao": "What does ROM stand for?",
+      "perg1": "Remote Operating Mode",
+      "perg2": "Random Output Memory",
+      "perg3": "Read-Only Memory",
+      "resposta": 3
+    },
+    {
+      "questao": "What does PDF stand for?",
+      "perg1": "Portable Document Format",
+      "perg2": "Printed Data File",
+      "perg3": "Personal Digital Format",
+      "resposta": 1
+    },
+    {
+      "questao": "What does DNS stand for?",
+      "perg1": "Data Network Service",
+      "perg2": "Domain Name System",
+      "perg3": "Digital Node Server",
+      "resposta": 2
+    },
+    {
+      "questao": "What does VPN stand for?",
+      "perg1": "Virtual Private Network",
+      "perg2": "Verified Public Node",
+      "perg3": "Variable Protocol Network",
+      "resposta": 1
+    },
+    {
+      "questao": "What does SSD stand for?",
+      "perg1": "System Storage Device",
+      "perg2": "Secure Serial Disk",
+      "perg3": "Solid-State Drive",
+      "resposta": 3
+    },
+    {
+      "questao": "What does LAN stand for?",
+      "perg1": "Linked Access Node",
+      "perg2": "Local Area Network",
+      "perg3": "Large Application Network",
+      "resposta": 2
+    },
+    {
+      "questao": "What does BIOS stand for?",
+      "perg1": "Built-In Operating Software",
+      "perg2": "Base Input/Output Setup",
+      "perg3": "Basic Input/Output System",
+      "resposta": 3
+    },
+    {
+      "questao": "What does FTP stand for?",
+      "perg1": "File Transfer Protocol",
+      "perg2": "Fast Transmission Path",
+      "perg3": "Formatted Text Package",
+      "resposta": 1
+    },
+    {
+      "questao": "What does GUI stand for?",
+      "perg1": "Global User Interface",
+      "perg2": "Graphical User Interface",
+      "perg3": "General Upload Interface",
+      "resposta": 2
+    },
+    {
+      "questao": "What does IoT stand for?",
+      "perg1": "Index of Technology",
+      "perg2": "Integration of Tools",
+      "perg3": "Internet of Things",
+      "resposta": 3
+    }
+  ]
+}
