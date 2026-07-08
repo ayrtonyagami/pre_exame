@@ -1,0 +1,181 @@
+{
+"quiz": "Prova de Exame",
+"disciplina": "Fisica",
+"questoes": [
+{
+"questao": "O que é uma carga elétrica?",
+"perg1": "Uma propriedade da matéria responsável pelas interações elétricas.",
+"perg2": "Uma forma de energia térmica.",
+"perg3": "Uma onda eletromagnética.",
+"resposta": 1
+},
+{
+"questao": "Qual é a unidade de medida da carga elétrica no Sistema Internacional?",
+"perg1": "Volt (V)",
+"perg2": "Coulomb (C)",
+"perg3": "Ampere (A)",
+"resposta": 2
+},
+{
+"questao": "Qual partícula do átomo possui carga elétrica negativa?",
+"perg1": "Próton",
+"perg2": "Nêutron",
+"perg3": "Elétron",
+"resposta": 3
+},
+{
+"questao": "Um corpo eletricamente neutro possui:",
+"perg1": "Número de prótons igual ao de elétrons.",
+"perg2": "Apenas elétrons.",
+"perg3": "Mais prótons do que elétrons.",
+"resposta": 1
+},
+{
+"questao": "Qual dos materiais abaixo é considerado um bom condutor elétrico?",
+"perg1": "Madeira seca",
+"perg2": "Cobre",
+"perg3": "Plástico",
+"resposta": 2
+},
+{
+"questao": "Qual dos materiais abaixo é um isolador elétrico?",
+"perg1": "Alumínio",
+"perg2": "Prata",
+"perg3": "Borracha",
+"resposta": 3
+},
+{
+"questao": "Em um condutor metálico, as cargas que se movimentam são:",
+"perg1": "Elétrons livres.",
+"perg2": "Prótons.",
+"perg3": "Nêutrons.",
+"resposta": 1
+},
+{
+"questao": "Segundo a Lei de Coulomb, a força elétrica entre duas cargas é diretamente proporcional:",
+"perg1": "À distância entre elas.",
+"perg2": "Ao produto dos valores das cargas.",
+"perg3": "Ao quadrado da distância.",
+"resposta": 2
+},
+{
+"questao": "Na Lei de Coulomb, a força elétrica é inversamente proporcional:",
+"perg1": "Ao produto das cargas.",
+"perg2": "À distância entre as cargas.",
+"perg3": "Ao quadrado da distância entre as cargas.",
+"resposta": 3
+},
+{
+"questao": "Duas cargas positivas próximas uma da outra tendem a:",
+"perg1": "Se repelir.",
+"perg2": "Se atrair.",
+"perg3": "Permanecer sem interação.",
+"resposta": 1
+},
+{
+"questao": "Uma carga positiva e uma carga negativa tendem a:",
+"perg1": "Se repelir.",
+"perg2": "Se atrair.",
+"perg3": "Anular uma à outra.",
+"resposta": 2
+},
+{
+"questao": "A constante eletrostática k, no vácuo, vale aproximadamente:",
+"perg1": "9 × 10⁻⁹ N·m²/C²",
+"perg2": "9 × 10⁹ C²/N·m²",
+"perg3": "9 × 10⁹ N·m²/C²",
+"resposta": 3
+},
+{
+"questao": "O campo elétrico é definido como:",
+"perg1": "A força elétrica por unidade de carga de prova.",
+"perg2": "A energia elétrica por unidade de tempo.",
+"perg3": "A diferença de potencial entre dois pontos.",
+"resposta": 1
+},
+{
+"questao": "A unidade do campo elétrico no Sistema Internacional é:",
+"perg1": "Coulomb (C)",
+"perg2": "Newton por Coulomb (N/C)",
+"perg3": "Volt (V)",
+"resposta": 2
+},
+{
+"questao": "As linhas de força de um campo elétrico saem de cargas:",
+"perg1": "Negativas.",
+"perg2": "Neutras.",
+"perg3": "Positivas.",
+"resposta": 3
+},
+{
+"questao": "As linhas de força de um campo elétrico chegam às cargas:",
+"perg1": "Negativas.",
+"perg2": "Positivas.",
+"perg3": "Neutras.",
+"resposta": 1
+},
+{
+"questao": "Quanto maior a densidade das linhas de força em uma região, o campo elétrico é:",
+"perg1": "Mais fraco.",
+"perg2": "Mais intenso.",
+"perg3": "Nulo.",
+"resposta": 2
+},
+{
+"questao": "As linhas de força de um campo elétrico:",
+"perg1": "Podem formar círculos fechados.",
+"perg2": "Sempre se cruzam.",
+"perg3": "Nunca se cruzam.",
+"resposta": 3
+},
+{
+"questao": "Se a distância entre duas cargas for duplicada, a força elétrica passa a ser:",
+"perg1": "Um quarto da força inicial.",
+"perg2": "O dobro da força inicial.",
+"perg3": "Quatro vezes maior.",
+"resposta": 1
+},
+{
+"questao": "A eletrização por atrito ocorre quando:",
+"perg1": "Um corpo é aproximado de outro sem contato.",
+"perg2": "Dois corpos são esfregados entre si.",
+"perg3": "Um corpo é ligado à terra.",
+"resposta": 2
+},
+{
+"questao": "Na eletrização por contato, após o equilíbrio, os corpos ficam:",
+"perg1": "Com cargas de sinais opostos.",
+"perg2": "Sem carga elétrica.",
+"perg3": "Com cargas de mesmo sinal.",
+"resposta": 3
+},
+{
+"questao": "O campo elétrico produzido por uma carga positiva aponta:",
+"perg1": "Para fora da carga.",
+"perg2": "Para dentro da carga.",
+"perg3": "Em sentido circular.",
+"resposta": 1
+},
+{
+"questao": "A força elétrica entre duas cargas depende:",
+"perg1": "Da temperatura do ambiente.",
+"perg2": "Dos valores das cargas e da distância entre elas.",
+"perg3": "Da massa das cargas.",
+"resposta": 2
+},
+{
+"questao": "Quando um corpo perde elétrons, ele fica:",
+"perg1": "Neutro.",
+"perg2": "Negativamente carregado.",
+"perg3": "Positivamente carregado.",
+"resposta": 3
+},
+{
+"questao": "Qual afirmação sobre condutores e isoladores é correta?",
+"perg1": "Condutores possuem elétrons livres que facilitam a passagem da corrente elétrica.",
+"perg2": "Isoladores permitem a livre movimentação de elétrons.",
+"perg3": "Todos os materiais conduzem eletricidade da mesma forma.",
+"resposta": 1
+}
+]
+}

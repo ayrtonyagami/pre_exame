@@ -1,0 +1,174 @@
+{
+  "quiz": "Lei de Coulomb, Campo Elétrico e Força Elétrica",
+  "disciplina": "Fisica",
+  "questoes": [
+    {
+      "questao": "Duas cargas elétricas de mesmo sinal são aproximadas. O que acontece entre elas?",
+      "perg1": "Elas se repelem.",
+      "perg2": "Elas se atraem.",
+      "perg3": "Não exercem força uma sobre a outra.",
+      "resposta": 1
+    },
+    {
+      "questao": "Segundo a Lei de Coulomb, se a distância entre duas cargas dobrar, a força elétrica passa a ser:",
+      "perg1": "O dobro da força inicial.",
+      "perg2": "Um quarto da força inicial.",
+      "perg3": "Quatro vezes maior.",
+      "resposta": 2
+    },
+    {
+      "questao": "Duas cargas de sinais opostos exercem entre si uma força de:",
+      "perg1": "Repulsão.",
+      "perg2": "Nenhuma força.",
+      "perg3": "Atração.",
+      "resposta": 3
+    },
+    {
+      "questao": "A força elétrica entre duas cargas aumenta quando:",
+      "perg1": "As cargas aumentam de valor.",
+      "perg2": "A distância entre elas aumenta.",
+      "perg3": "Uma das cargas é retirada.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a unidade da intensidade do campo elétrico no Sistema Internacional?",
+      "perg1": "Newton (N)",
+      "perg2": "Newton por Coulomb (N/C)",
+      "perg3": "Coulomb (C)",
+      "resposta": 2
+    },
+    {
+      "questao": "O campo elétrico produzido por uma carga positiva tem sentido:",
+      "perg1": "Para o centro da carga.",
+      "perg2": "Circular ao redor da carga.",
+      "perg3": "Para fora da carga.",
+      "resposta": 3
+    },
+    {
+      "questao": "A fórmula que relaciona força elétrica, carga e campo elétrico é:",
+      "perg1": "F = qE",
+      "perg2": "E = q/F",
+      "perg3": "F = kq²",
+      "resposta": 1
+    },
+    {
+      "questao": "Se o valor da carga de prova dobrar, mantendo o mesmo campo elétrico, a força elétrica será:",
+      "perg1": "A mesma.",
+      "perg2": "O dobro.",
+      "perg3": "A metade.",
+      "resposta": 2
+    },
+    {
+      "questao": "As linhas de força de um campo elétrico sempre saem das cargas:",
+      "perg1": "Negativas.",
+      "perg2": "Neutras.",
+      "perg3": "Positivas.",
+      "resposta": 3
+    },
+    {
+      "questao": "Se a distância entre duas cargas diminuir, a força elétrica entre elas:",
+      "perg1": "Aumenta.",
+      "perg2": "Permanece constante.",
+      "perg3": "Diminui.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual grandeza representa a influência de uma carga elétrica sobre a região ao seu redor?",
+      "perg1": "Corrente elétrica.",
+      "perg2": "Campo elétrico.",
+      "perg3": "Potência elétrica.",
+      "resposta": 2
+    },
+    {
+      "questao": "Uma carga negativa colocada em um campo elétrico uniforme sofre uma força:",
+      "perg1": "No mesmo sentido do campo elétrico.",
+      "perg2": "Perpendicular ao campo elétrico.",
+      "perg3": "Em sentido contrário ao campo elétrico.",
+      "resposta": 3
+    },
+    {
+      "questao": "Duas cargas elétricas são aproximadas. A primeira possui +2 C e a segunda +5 C. Qual será a interação entre elas?",
+      "perg1": "Atração",
+      "perg2": "Repulsão",
+      "perg3": "Não haverá força elétrica",
+      "resposta": 2
+    },
+    {
+      "questao": "Duas cargas, +3 C e -4 C, estão próximas uma da outra. Qual é a natureza da força elétrica entre elas?",
+      "perg1": "Repulsão",
+      "perg2": "Não existe força",
+      "perg3": "Atração",
+      "resposta": 3
+    },
+    {
+      "questao": "A força elétrica entre duas cargas é de 36 N quando estão separadas por 2 m. Se a distância passar para 4 m, qual será a nova força?",
+      "perg1": "9 N",
+      "perg2": "18 N",
+      "perg3": "72 N",
+      "resposta": 1
+    },
+    {
+      "questao": "A força entre duas cargas é de 20 N. Se a distância entre elas for reduzida para a metade, a força será:",
+      "perg1": "10 N",
+      "perg2": "80 N",
+      "perg3": "40 N",
+      "resposta": 2
+    },
+    {
+      "questao": "Uma carga de 4 C é colocada em um campo elétrico de intensidade 5 N/C. Qual será a força elétrica sobre essa carga? (F = qE)",
+      "perg1": "9 N",
+      "perg2": "1,25 N",
+      "perg3": "20 N",
+      "resposta": 3
+    },
+    {
+      "questao": "Uma carga de 2 C sofre uma força elétrica de 10 N. Qual é a intensidade do campo elétrico onde ela está? (E = F/q)",
+      "perg1": "5 N/C",
+      "perg2": "20 N/C",
+      "perg3": "12 N/C",
+      "resposta": 1
+    },
+    {
+      "questao": "Uma carga de 8 C está em um campo elétrico de 4 N/C. Qual é a força elétrica aplicada sobre ela?",
+      "perg1": "2 N",
+      "perg2": "32 N",
+      "perg3": "12 N",
+      "resposta": 2
+    },
+    {
+      "questao": "Uma carga positiva é colocada em um campo elétrico uniforme. Em que sentido a força elétrica atua?",
+      "perg1": "No sentido contrário ao campo elétrico",
+      "perg2": "Perpendicular ao campo elétrico",
+      "perg3": "No mesmo sentido do campo elétrico",
+      "resposta": 3
+    },
+    {
+      "questao": "Uma carga negativa é colocada em um campo elétrico uniforme. A força elétrica terá sentido:",
+      "perg1": "Contrário ao campo elétrico",
+      "perg2": "Igual ao campo elétrico",
+      "perg3": "Aleatório",
+      "resposta": 1
+    },
+    {
+      "questao": "A força elétrica entre duas cargas é de 64 N quando estão separadas por uma determinada distância. Se essa distância for duplicada, a nova força será:",
+      "perg1": "32 N",
+      "perg2": "16 N",
+      "perg3": "128 N",
+      "resposta": 2
+    },
+    {
+      "questao": "Uma carga de 6 C sofre uma força elétrica de 30 N. Qual é a intensidade do campo elétrico?",
+      "perg1": "180 N/C",
+      "perg2": "36 N/C",
+      "perg3": "5 N/C",
+      "resposta": 3
+    },
+    {
+      "questao": "Uma carga de 10 C é colocada em um campo elétrico de 7 N/C. Qual será a força elétrica exercida sobre ela?",
+      "perg1": "70 N",
+      "perg2": "17 N",
+      "perg3": "3 N",
+      "resposta": 1
+    }
+  ]
+}

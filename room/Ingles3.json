@@ -1,0 +1,195 @@
+{
+  "quiz": "Siglas de Informática Parte 2",
+  "disciplina": "Inglês",
+  "questoes": [
+    {
+      "questao": "O que significa a sigla REST?",
+      "perg1": "Representational State Transfer",
+      "perg2": "Remote State Transfer",
+      "perg3": "Resource Standard Transfer",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla SOAP?",
+      "perg1": "Simple Object Access Process",
+      "perg2": "Simple Object Access Protocol",
+      "perg3": "Secure Object Access Protocol",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla FTP?",
+      "perg1": "Fast Transfer Protocol",
+      "perg2": "File Transport Process",
+      "perg3": "File Transfer Protocol",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla SFTP?",
+      "perg1": "Secure File Transfer Protocol",
+      "perg2": "Simple File Transfer Protocol",
+      "perg3": "System File Transfer Program",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla SSH?",
+      "perg1": "Secure Server Host",
+      "perg2": "Secure Shell",
+      "perg3": "System Shell Host",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla SSL?",
+      "perg1": "Secure Service Layer",
+      "perg2": "Secure Socket Link",
+      "perg3": "Secure Sockets Layer",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla TLS?",
+      "perg1": "Transport Layer Security",
+      "perg2": "Transfer Layer Security",
+      "perg3": "Trusted Layer System",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla SMTP?",
+      "perg1": "Simple Mail Transport Process",
+      "perg2": "Simple Mail Transfer Protocol",
+      "perg3": "Secure Mail Transfer Program",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla POP3?",
+      "perg1": "Post Office Program Version 3",
+      "perg2": "Public Office Protocol 3",
+      "perg3": "Post Office Protocol Version 3",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla IMAP?",
+      "perg1": "Internet Message Access Protocol",
+      "perg2": "Internet Mail Access Program",
+      "perg3": "Integrated Mail Access Protocol",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla ISP?",
+      "perg1": "Internet Service Platform",
+      "perg2": "Internet Service Provider",
+      "perg3": "Integrated Service Provider",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla CDN?",
+      "perg1": "Content Distribution Node",
+      "perg2": "Central Data Network",
+      "perg3": "Content Delivery Network",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla SEO?",
+      "perg1": "Search Engine Optimization",
+      "perg2": "Search Engine Operation",
+      "perg3": "System Engine Optimization",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla SQL?",
+      "perg1": "Structured Query Logic",
+      "perg2": "Structured Query Language",
+      "perg3": "Standard Query Language",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla CRUD?",
+      "perg1": "Create Read Upload Delete",
+      "perg2": "Create Run Update Delete",
+      "perg3": "Create Read Update Delete",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla OOP?",
+      "perg1": "Object Oriented Programming",
+      "perg2": "Object Organized Program",
+      "perg3": "Operation Oriented Programming",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla MVC?",
+      "perg1": "Model Visual Controller",
+      "perg2": "Model View Controller",
+      "perg3": "Module View Control",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla MVVM?",
+      "perg1": "Model View Virtual Machine",
+      "perg2": "Module View View Model",
+      "perg3": "Model View ViewModel",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla ORM?",
+      "perg1": "Object Relational Mapping",
+      "perg2": "Object Resource Mapping",
+      "perg3": "Object Routing Model",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla IDE?",
+      "perg1": "Integrated Developer Environment",
+      "perg2": "Integrated Development Environment",
+      "perg3": "Internal Development Engine",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla SDK?",
+      "perg1": "Software Design Kit",
+      "perg2": "System Development Kit",
+      "perg3": "Software Development Kit",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla CLI?",
+      "perg1": "Command Line Interface",
+      "perg2": "Computer Line Interface",
+      "perg3": "Command Logic Interface",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla GUI?",
+      "perg1": "Graphic User Interface",
+      "perg2": "Graphical User Interface",
+      "perg3": "General User Interface",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla CLR?",
+      "perg1": "Common Language Resource",
+      "perg2": "Common Logic Runtime",
+      "perg3": "Common Language Runtime",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla AJAX?",
+      "perg1": "Asynchronous JavaScript and XML",
+      "perg2": "Advanced Java Application XML",
+      "perg3": "Asynchronous Java API XML",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla LINQ?",
+      "perg1": "Language Internal Query",
+      "perg2": "Language Integrated Query",
+      "perg3": "Logical Integrated Query",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla TDD?",
+      "perg1": "Test Driven Design",
+      "perg2": "Testing Driven Development",
+      "perg3": "Test Driven Development",
+      "resposta": 3
+    }
+  ]
+}

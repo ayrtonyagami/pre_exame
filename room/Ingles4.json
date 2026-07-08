@@ -1,0 +1,216 @@
+{
+  "quiz": "Siglas de Informática Parte 3",
+  "disciplina": "Inglês",
+  "questoes": [
+    {
+      "questao": "O que significa a sigla BDD?",
+      "perg1": "Behavior Driven Development",
+      "perg2": "Business Driven Development",
+      "perg3": "Binary Data Development",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla CI?",
+      "perg1": "Code Integration",
+      "perg2": "Continuous Integration",
+      "perg3": "Central Integration",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla CD no contexto DevOps?",
+      "perg1": "Code Distribution",
+      "perg2": "Continuous Debugging",
+      "perg3": "Continuous Delivery",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla MFA?",
+      "perg1": "Multi-Factor Authentication",
+      "perg2": "Multiple File Access",
+      "perg3": "Main Function Authorization",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla 2FA?",
+      "perg1": "Two File Access",
+      "perg2": "Two-Factor Authentication",
+      "perg3": "Two Function Authorization",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla IAM?",
+      "perg1": "Identity Access Module",
+      "perg2": "Internal Access Management",
+      "perg3": "Identity and Access Management",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla IDS?",
+      "perg1": "Intrusion Detection System",
+      "perg2": "Internet Detection Service",
+      "perg3": "Internal Data System",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla IPS?",
+      "perg1": "Internet Protection System",
+      "perg2": "Intrusion Prevention System",
+      "perg3": "Internal Processing Service",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla WAF?",
+      "perg1": "Web Access Firewall",
+      "perg2": "Web Application Filter",
+      "perg3": "Web Application Firewall",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla DDoS?",
+      "perg1": "Distributed Denial of Service",
+      "perg2": "Distributed Data of Security",
+      "perg3": "Dynamic Denial of Server",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla PKI?",
+      "perg1": "Private Key Infrastructure",
+      "perg2": "Public Key Infrastructure",
+      "perg3": "Protected Key Interface",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla RSA?",
+      "perg1": "Remote Secure Access",
+      "perg2": "Reliable Security Algorithm",
+      "perg3": "Rivest Shamir Adleman",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla AES?",
+      "perg1": "Advanced Encryption Standard",
+      "perg2": "Advanced Encoding System",
+      "perg3": "Automatic Encryption Service",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla MAC em redes?",
+      "perg1": "Machine Access Code",
+      "perg2": "Media Access Control",
+      "perg3": "Main Address Controller",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla NAT?",
+      "perg1": "Network Access Translation",
+      "perg2": "Network Address Transfer",
+      "perg3": "Network Address Translation",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla ICMP?",
+      "perg1": "Internet Control Message Protocol",
+      "perg2": "Internal Communication Management Protocol",
+      "perg3": "Internet Connection Monitoring Program",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla ARP?",
+      "perg1": "Address Routing Protocol",
+      "perg2": "Address Resolution Protocol",
+      "perg3": "Automatic Resolution Process",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla MTU?",
+      "perg1": "Maximum Transfer Unit",
+      "perg2": "Main Transmission Unit",
+      "perg3": "Maximum Transmission Unit",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla QoS?",
+      "perg1": "Quality of Service",
+      "perg2": "Quantity of Service",
+      "perg3": "Quality of System",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla BGP?",
+      "perg1": "Border Gateway Process",
+      "perg2": "Border Gateway Protocol",
+      "perg3": "Binary Gateway Protocol",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla OSPF?",
+      "perg1": "Open System Path Finder",
+      "perg2": "Open Shortest Path Framework",
+      "perg3": "Open Shortest Path First",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla RIP?",
+      "perg1": "Routing Information Protocol",
+      "perg2": "Remote Internet Protocol",
+      "perg3": "Routing Internet Process",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla SNMP?",
+      "perg1": "Simple Network Management Process",
+      "perg2": "Simple Network Management Protocol",
+      "perg3": "Secure Network Management Protocol",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla IPv4?",
+      "perg1": "Internet Process Version 4",
+      "perg2": "Internet Program Version 4",
+      "perg3": "Internet Protocol Version 4",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla IPv6?",
+      "perg1": "Internet Protocol Version 6",
+      "perg2": "Internet Program Version 6",
+      "perg3": "Internet Process Version 6",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla NIC?",
+      "perg1": "Network Internet Card",
+      "perg2": "Network Interface Card",
+      "perg3": "Network Internal Connector",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla PCIe?",
+      "perg1": "Peripheral Computer Interface Express",
+      "perg2": "Personal Component Interconnect Express",
+      "perg3": "Peripheral Component Interconnect Express",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla SATA?",
+      "perg1": "Serial Advanced Technology Attachment",
+      "perg2": "System Advanced Transfer Adapter",
+      "perg3": "Secure ATA Technology",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla NVMe?",
+      "perg1": "Non-Volatile Memory Engine",
+      "perg2": "Non-Volatile Memory Express",
+      "perg3": "New Virtual Memory Express",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla UEFI?",
+      "perg1": "Universal Extensible Firmware Interface",
+      "perg2": "Unified Extended Firmware Integration",
+      "perg3": "Unified Extensible Firmware Interface",
+      "resposta": 3
+    }
+  ]
+}

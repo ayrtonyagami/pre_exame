@@ -1,0 +1,216 @@
+{
+  "quiz": "Siglas de Informática Parte 1",
+  "disciplina": "Inglês",
+  "questoes": [
+    {
+      "questao": "O que significa a sigla CPU?",
+      "perg1": "Central Processing Unit",
+      "perg2": "Central Program Utility",
+      "perg3": "Computer Processing Unit",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla RAM?",
+      "perg1": "Random Application Memory",
+      "perg2": "Random Access Memory",
+      "perg3": "Read Access Memory",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla ROM?",
+      "perg1": "Random Output Memory",
+      "perg2": "Remote Object Memory",
+      "perg3": "Read Only Memory",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla SSD?",
+      "perg1": "Solid State Drive",
+      "perg2": "Secure Storage Disk",
+      "perg3": "Serial System Drive",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla HDD?",
+      "perg1": "High Data Drive",
+      "perg2": "Hard Disk Drive",
+      "perg3": "Hardware Digital Disk",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla BIOS?",
+      "perg1": "Binary Input Operating System",
+      "perg2": "Basic Internal Operating Service",
+      "perg3": "Basic Input Output System",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla USB?",
+      "perg1": "Universal Serial Bus",
+      "perg2": "Universal System Bus",
+      "perg3": "Unified Serial Bridge",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla HDMI?",
+      "perg1": "High Display Media Interface",
+      "perg2": "High Definition Multimedia Interface",
+      "perg3": "Hyper Digital Multimedia Interface",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla VGA?",
+      "perg1": "Video Graphic Adapter",
+      "perg2": "Virtual Graphics Access",
+      "perg3": "Video Graphics Array",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla PSU?",
+      "perg1": "Power Supply Unit",
+      "perg2": "Primary System Unit",
+      "perg3": "Power Service Utility",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla GPU?",
+      "perg1": "General Processing Unit",
+      "perg2": "Graphics Processing Unit",
+      "perg3": "Graphic Program Utility",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla LAN?",
+      "perg1": "Large Area Network",
+      "perg2": "Local Access Network",
+      "perg3": "Local Area Network",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla WAN?",
+      "perg1": "Wide Area Network",
+      "perg2": "Wireless Area Network",
+      "perg3": "World Access Network",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla MAN?",
+      "perg1": "Main Area Network",
+      "perg2": "Metropolitan Area Network",
+      "perg3": "Media Access Network",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla PAN?",
+      "perg1": "Private Access Network",
+      "perg2": "Public Area Network",
+      "perg3": "Personal Area Network",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla WLAN?",
+      "perg1": "Wireless Local Area Network",
+      "perg2": "Wide Local Access Network",
+      "perg3": "Wireless Linked Area Network",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla VPN?",
+      "perg1": "Virtual Public Network",
+      "perg2": "Virtual Private Network",
+      "perg3": "Verified Private Network",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla DNS?",
+      "perg1": "Domain Network Service",
+      "perg2": "Digital Name System",
+      "perg3": "Domain Name System",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla DHCP?",
+      "perg1": "Dynamic Host Configuration Protocol",
+      "perg2": "Data Host Control Protocol",
+      "perg3": "Dynamic Hardware Configuration Program",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla IP?",
+      "perg1": "Internet Package",
+      "perg2": "Internet Protocol",
+      "perg3": "Internal Protocol",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla TCP?",
+      "perg1": "Transfer Control Protocol",
+      "perg2": "Transmission Communication Protocol",
+      "perg3": "Transmission Control Protocol",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla UDP?",
+      "perg1": "User Datagram Protocol",
+      "perg2": "Universal Data Protocol",
+      "perg3": "Unified Datagram Program",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla HTTP?",
+      "perg1": "HyperText Transfer Process",
+      "perg2": "HyperText Transfer Protocol",
+      "perg3": "Hyper Transfer Text Protocol",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla HTTPS?",
+      "perg1": "HyperText Transfer Protected Service",
+      "perg2": "Hyper Transfer Protocol Security",
+      "perg3": "HyperText Transfer Protocol Secure",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla URL?",
+      "perg1": "Uniform Resource Locator",
+      "perg2": "Universal Resource Link",
+      "perg3": "Uniform Routing Locator",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla HTML?",
+      "perg1": "HyperText Markdown Language",
+      "perg2": "HyperText Markup Language",
+      "perg3": "HighText Markup Language",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla CSS?",
+      "perg1": "Computer Style Sheets",
+      "perg2": "Creative Style System",
+      "perg3": "Cascading Style Sheets",
+      "resposta": 3
+    },
+    {
+      "questao": "O que significa a sigla XML?",
+      "perg1": "eXtensible Markup Language",
+      "perg2": "Extended Machine Language",
+      "perg3": "Executable Markup Language",
+      "resposta": 1
+    },
+    {
+      "questao": "O que significa a sigla JSON?",
+      "perg1": "Java Standard Object Notation",
+      "perg2": "JavaScript Object Notation",
+      "perg3": "Java Structured Object Network",
+      "resposta": 2
+    },
+    {
+      "questao": "O que significa a sigla API?",
+      "perg1": "Application Program Interface",
+      "perg2": "Application Process Integration",
+      "perg3": "Application Programming Interface",
+      "resposta": 3
+    }
+  ]
+}

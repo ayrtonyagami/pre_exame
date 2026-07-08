@@ -1,0 +1,146 @@
+{
+  "quiz": "Though e Even Though",
+  "disciplina": "Inglês",
+  "questoes": [
+    {
+      "questao": "Qual é a forma correta da frase: 'Though he is tired but he continues working.'?",
+      "perg1": "Though he is tired, he continues working.",
+      "perg2": "Though he is tired but he continues working.",
+      "perg3": "Though he tired, but he continues working.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Even though it was raining but we went outside.'?",
+      "perg1": "Even though it was raining but we went outside.",
+      "perg2": "Even though it was raining, we went outside.",
+      "perg3": "Even though raining we went outside.",
+      "resposta": 2
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'I like the laptop though but it is expensive.'?",
+      "perg1": "I like the laptop though but it is expensive.",
+      "perg2": "I like the laptop but though it is expensive.",
+      "perg3": "I like the laptop though it is expensive.",
+      "resposta": 3
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Though she doesn't understand, but she answers the question.'?",
+      "perg1": "Though she doesn't understand, she answers the question.",
+      "perg2": "Though she doesn't understand, but she answers the question.",
+      "perg3": "Though she don't understand she answers the question.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Even though the system crashed but we saved the file.'?",
+      "perg1": "Even though the system crashed but we saved the file.",
+      "perg2": "Even though the system crashed, we saved the file.",
+      "perg3": "Even though crashed the system we saved the file.",
+      "resposta": 2
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'He installs the software though but it doesn't work.'?",
+      "perg1": "He installs the software though but it doesn't work.",
+      "perg2": "He installs the software but though it doesn't work.",
+      "perg3": "He installs the software though it doesn't work.",
+      "resposta": 3
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Though the internet is slow but I download the file.'?",
+      "perg1": "Though the internet is slow, I download the file.",
+      "perg2": "Though the internet is slow but I download the file.",
+      "perg3": "Though internet is slow I download.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Even though I studied but I fail the test.'?",
+      "perg1": "Even though I studied but I fail the test.",
+      "perg2": "Even though I studied, I fail the test.",
+      "perg3": "Even though studied I fail the test.",
+      "resposta": 2
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'The computer is old though but it runs fast.'?",
+      "perg1": "The computer is old though but it runs fast.",
+      "perg2": "The computer is old but though it runs fast.",
+      "perg3": "The computer is old though it runs fast.",
+      "resposta": 3
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Though they use a new program but they have problems.'?",
+      "perg1": "Though they use a new program, they have problems.",
+      "perg2": "Though they use a new program but they have problems.",
+      "perg3": "Though use a new program they have problems.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Even though the password is correct but it doesn't open.'?",
+      "perg1": "Even though the password is correct but it doesn't open.",
+      "perg2": "Even though the password is correct, it doesn't open.",
+      "perg3": "Even though correct password it doesn't open.",
+      "resposta": 2
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'I use the app though but I don't like it.'?",
+      "perg1": "I use the app though but I don't like it.",
+      "perg2": "I use the app but though I don't like it.",
+      "perg3": "I use the app though I don't like it.",
+      "resposta": 3
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Though she tries hard but she doesn't fix the error.'?",
+      "perg1": "Though she tries hard, she doesn't fix the error.",
+      "perg2": "Though she tries hard but she doesn't fix the error.",
+      "perg3": "Though she hard tries she doesn't fix the error.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Even though the network is stable but the connection drops.'?",
+      "perg1": "Even though the network is stable but the connection drops.",
+      "perg2": "Even though the network is stable, the connection drops.",
+      "perg3": "Even though stable network connection drops.",
+      "resposta": 2
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'He writes the code though but it has many bugs.'?",
+      "perg1": "He writes the code though but it has many bugs.",
+      "perg2": "He writes the code but though it has many bugs.",
+      "perg3": "He writes the code though it has many bugs.",
+      "resposta": 3
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Though we restart the computer but it still freezes.'?",
+      "perg1": "Though we restart the computer, it still freezes.",
+      "perg2": "Though we restart the computer but it still freezes.",
+      "perg3": "Though restart the computer it freezes.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Even though the file is small but it takes long to upload.'?",
+      "perg1": "Even though the file is small but it takes long to upload.",
+      "perg2": "Even though the file is small, it takes long to upload.",
+      "perg3": "Even though small file takes long upload.",
+      "resposta": 2
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'I understand the lesson though but I make mistakes.'?",
+      "perg1": "I understand the lesson though but I make mistakes.",
+      "perg2": "I understand the lesson but though I make mistakes.",
+      "perg3": "I understand the lesson though I make mistakes.",
+      "resposta": 3
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Though the teacher explains well but students are confused.'?",
+      "perg1": "Though the teacher explains well, students are confused.",
+      "perg2": "Though the teacher explains well but students are confused.",
+      "perg3": "Though teacher explains students confused.",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a forma correta da frase: 'Even though the device is new but it is slow.'?",
+      "perg1": "Even though the device is new but it is slow.",
+      "perg2": "Even though the device is new, it is slow.",
+      "perg3": "Even though new device is slow but.",
+      "resposta": 2
+    }
+  ]
+}

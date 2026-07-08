@@ -1,0 +1,111 @@
+{
+"quiz": "Eletrostática",
+"disciplina": "Fisica",
+"questoes": [
+{
+"questao": "O que estuda a eletrostática?",
+"perg1": "O movimento das correntes elétricas.",
+"perg2": "As cargas elétricas em repouso e suas interações.",
+"perg3": "A propagação das ondas eletromagnéticas.",
+"resposta": 2
+},
+{
+"questao": "Qual partícula do átomo possui carga elétrica negativa?",
+"perg1": "Elétron",
+"perg2": "Próton",
+"perg3": "Nêutron",
+"resposta": 1
+},
+{
+"questao": "Quando dois corpos possuem cargas elétricas de mesmo sinal, eles tendem a:",
+"perg1": "Se atrair.",
+"perg2": "Permanecer em equilíbrio sem interação.",
+"perg3": "Se repelir.",
+"resposta": 3
+},
+{
+"questao": "Qual é a unidade da carga elétrica no Sistema Internacional?",
+"perg1": "Volt (V)",
+"perg2": "Coulomb (C)",
+"perg3": "Ampere (A)",
+"resposta": 2
+},
+{
+"questao": "Segundo a Lei de Coulomb, a força elétrica entre duas cargas é inversamente proporcional:",
+"perg1": "Ao quadrado da distância entre elas.",
+"perg2": "Ao produto das cargas.",
+"perg3": "À distância entre elas.",
+"resposta": 1
+},
+{
+"questao": "Em um campo elétrico, as linhas de força saem de cargas:",
+"perg1": "Negativas.",
+"perg2": "Positivas.",
+"perg3": "Neutras.",
+"resposta": 2
+},
+{
+"questao": "Qual dos materiais abaixo é um bom condutor de eletricidade?",
+"perg1": "Vidro",
+"perg2": "Borracha",
+"perg3": "Cobre",
+"resposta": 3
+},
+{
+"questao": "A eletrização por atrito ocorre quando:",
+"perg1": "Dois corpos são esfregados entre si, ocorrendo transferência de elétrons.",
+"perg2": "Um corpo é ligado diretamente à Terra.",
+"perg3": "Um corpo é aquecido até emitir elétrons.",
+"resposta": 1
+},
+{
+"questao": "A intensidade do campo elétrico pode ser definida como:",
+"perg1": "A razão entre a carga e a distância.",
+"perg2": "A força elétrica por unidade de carga de prova.",
+"perg3": "O produto da força pela carga.",
+"resposta": 2
+},
+{
+"questao": "Se a distância entre duas cargas elétricas for reduzida para a metade, a força elétrica entre elas será:",
+"perg1": "Reduzida à metade.",
+"perg2": "Duplicada.",
+"perg3": "Quatro vezes maior.",
+"resposta": 3
+},
+{
+    "questao": "As linhas de força de um campo elétrico nunca se cruzam porque:",
+    "perg1": "O campo elétrico possui apenas um sentido em cada ponto do espaço.",
+    "perg2": "As cargas elétricas impedem o cruzamento das linhas por atração.",
+    "perg3": "As linhas representam apenas a intensidade do campo.",
+    "resposta": 1
+  },
+  {
+    "questao": "Quando um corpo perde elétrons durante um processo de eletrização, ele fica:",
+    "perg1": "Negativamente carregado.",
+    "perg2": "Positivamente carregado.",
+    "perg3": "Eletricamente neutro.",
+    "resposta": 2
+  },
+  {
+    "questao": "Qual é a unidade de medida da intensidade do campo elétrico no Sistema Internacional?",
+    "perg1": "Coulomb (C)",
+    "perg2": "Volt (V)",
+    "perg3": "Newton por Coulomb (N/C)",
+    "resposta": 3
+  },
+  {
+    "questao": "Na eletrização por contato, após o equilíbrio, os corpos ficam:",
+    "perg1": "Com cargas de mesmo sinal.",
+    "perg2": "Sem carga elétrica.",
+    "perg3": "Com cargas de sinais opostos.",
+    "resposta": 1
+  },
+  {
+    "questao": "A constante eletrostática (k) utilizada na Lei de Coulomb, no vácuo, vale aproximadamente:",
+    "perg1": "9 × 10⁻⁹ N·m²/C²",
+    "perg2": "9 × 10⁹ N·m²/C²",
+    "perg3": "3 × 10⁸ m/s",
+    "resposta": 2
+  }
+]
+}
