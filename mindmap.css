@@ -1,0 +1,145 @@
+/* =========================================================
+   MAPA MENTAL — estilos específicos desta página
+   (reaproveita os tokens definidos em style.css)
+   ========================================================= */
+
+.mindmap-body {
+  /* a tela de mapa precisa ocupar mais espaço que a folha de prova padrão */
+  align-items: center;
+}
+
+.mindmap-sheet {
+  width: min(1040px, 100%);
+}
+
+.mindmap-screen {
+  /* quando o mapa está ativo, a folha vira um "quadro" maior */
+  padding-bottom: 8px;
+}
+
+.mindmap-header {
+  margin-bottom: 18px;
+}
+
+.mindmap-title-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.mindmap-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+}
+
+.btn-small {
+  padding: 8px 14px;
+  font-size: 12px;
+}
+
+/* ---------- canvas do mapa ---------- */
+.mindmap-canvas-wrap {
+  position: relative;
+  width: 100%;
+  height: min(70vh, 620px);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(28,27,25,0.06) 1px, transparent 0);
+  background-size: 18px 18px;
+  overflow: hidden;
+}
+
+.mindmap-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* markmap desenha os nós com a própria paleta; ajustamos as cores
+   de linha/texto para casar com a folha de prova via CSS vars que
+   o markmap-view consome (--markmap- *) */
+.mindmap-canvas {
+  --markmap-text-color: var(--ink);
+}
+
+.mindmap-canvas .markmap-node text {
+  font-family: var(--font-body);
+  fill: var(--ink);
+}
+
+.mindmap-canvas .markmap-link {
+  stroke: var(--rule);
+  stroke-width: 1.6px;
+}
+
+.mindmap-canvas .markmap-node > circle {
+  stroke-width: 1.6px;
+}
+
+/* toolbar flutuante (zoom / fit / recenter) da markmap-toolbar */
+.mm-toolbar {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 16px -8px rgba(28,27,25,0.35);
+  font-family: var(--font-mono);
+}
+
+.mm-toolbar-item {
+  color: var(--ink-soft);
+}
+.mm-toolbar-item:hover {
+  color: var(--green);
+  background: var(--green-soft);
+}
+
+/* ---------- estado vazio / carregando ---------- */
+.canvas-state {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  padding: 24px;
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.canvas-state[hidden] { display: none; }
+
+.canvas-state.is-error { color: var(--red); }
+
+/* ---------- spinner simples para carregamento das libs ---------- */
+.spinner {
+  width: 22px;
+  height: 22px;
+  border: 2.5px solid var(--rule);
+  border-top-color: var(--green);
+  border-radius: 50%;
+  animation: spin 800ms linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation: none; }
+}
+
+@media (max-width: 560px) {
+  .mindmap-title-row { flex-direction: column; align-items: stretch; }
+  .mindmap-actions { width: 100%; }
+  .mindmap-actions .btn-small { flex: 1; }
+  .mindmap-canvas-wrap { height: 60vh; }
+}

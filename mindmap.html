@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — a partir de Markdown</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mindmap.css">
+
+<!-- markmap (build UMD — mais estável que +esm para uso direto via <script>) -->
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.18/dist/browser/index.iife.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18/dist/browser/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18/dist/index.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18/dist/style.css">
+</head>
+<body class="mindmap-body">
+
+<div class="paper-stack" aria-hidden="true">
+  <div class="paper-sheet sheet-2"></div>
+  <div class="paper-sheet sheet-1"></div>
+</div>
+
+<main class="exam-sheet mindmap-sheet" id="mindmapSheet">
+
+  <!-- ========== TELA 1: IMPORTAÇÃO ========== -->
+  <section class="screen" id="screen-import" data-screen="import">
+    <header class="sheet-header">
+      <nav class="page-nav">
+        <a href="index.html" class="page-nav-link">Quiz</a>
+        <a href="mindmap.html" class="page-nav-link is-active">Mapa Mental</a>
+      </nav>
+      <span class="eyebrow">Mapa Mental</span>
+      <h1 class="title-display">Transforme suas notas em mapa</h1>
+      <p class="subtitle">Importe um arquivo <code>.md</code> e veja sua estrutura de títulos e tópicos virar um mapa mental navegável.</p>
+    </header>
+
+    <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Importar arquivo Markdown">
+      <svg class="dropzone-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M24 6V30M24 30L16 22M24 30L32 22" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 32V36C8 38.2091 9.79086 40 12 40H36C38.2091 40 40 38.2091 40 36V32" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <p class="dropzone-text"><strong>Arraste o arquivo .md aqui</strong> ou clique para escolher</p>
+      <p class="dropzone-hint">Aceita um arquivo Markdown por vez</p>
+      <input type="file" id="fileInput" accept=".md,.markdown,text/markdown" hidden>
+    </div>
+
+    <p class="import-error" id="importError" role="alert" hidden></p>
+
+    <details class="format-help">
+      <summary>Ver exemplo de Markdown compatível</summary>
+      <pre><code># Redes de Computadores
+
+## Camada de Transporte
+- TCP
+- UDP
+
+## Camada de Aplicação
+- HTTP
+- DNS
+- FTP
+
+## Camada Física
+- Cabos
+- Rádio</code></pre>
+    </details>
+  </section>
+
+  <!-- ========== TELA 2: MAPA MENTAL ========== -->
+  <section class="screen mindmap-screen" id="screen-map" data-screen="map" hidden>
+    <header class="sheet-header mindmap-header">
+      <nav class="page-nav">
+        <a href="index.html" class="page-nav-link">Quiz</a>
+        <a href="mindmap.html" class="page-nav-link is-active">Mapa Mental</a>
+      </nav>
+      <div class="mindmap-title-row">
+        <div>
+          <span class="eyebrow" id="mapEyebrow">Mapa Mental</span>
+          <h1 class="title-display" id="mapTitle">Documento</h1>
+        </div>
+        <div class="mindmap-actions">
+          <button class="btn-ghost btn-small" id="fitBtn" title="Ajustar à tela">Ajustar</button>
+          <button class="btn-ghost btn-small" id="downloadBtn" title="Salvar como SVG">Baixar SVG</button>
+          <button class="btn-ghost btn-small" id="newFileBtn" title="Importar outro arquivo">Novo arquivo</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mindmap-canvas-wrap">
+      <svg id="mindmap" class="mindmap-canvas"></svg>
+    </div>
+  </section>
+
+</main>
+
+<script src="mindmap.js"></script>
+</body>
+</html>

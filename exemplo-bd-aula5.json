@@ -1,0 +1,20 @@
+{
+  "quiz": "Aula 5",
+  "disciplina": "Banco de Dados",
+  "questoes": [
+    {
+      "questao": "O que significa a sigla SQL?",
+      "perg1": "Structured Query Language",
+      "perg2": "Simple Query Logic",
+      "perg3": "System Quality Level",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual comando SQL é usado para remover um registro de uma tabela?",
+      "perg1": "REMOVE",
+      "perg2": "DELETE",
+      "perg3": "DROP",
+      "resposta": 2
+    }
+  ]
+}

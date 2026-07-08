@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Folha de Prova — Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="paper-stack" aria-hidden="true">
+  <div class="paper-sheet sheet-2"></div>
+  <div class="paper-sheet sheet-1"></div>
+</div>
+
+<main class="exam-sheet" id="examSheet">
+
+  <!-- ========== TELA 1: IMPORTAÇÃO ========== -->
+  <section class="screen" id="screen-import" data-screen="import">
+    <header class="sheet-header">
+      <nav class="page-nav">
+        <a href="index.html" class="page-nav-link is-active">Quiz</a>
+        <a href="mindmap.html" class="page-nav-link">Mapa Mental</a>
+      </nav>
+      <span class="eyebrow">Folha de Prova</span>
+      <h1 class="title-display">Monte sua prova</h1>
+      <p class="subtitle">Importe um ou mais arquivos <code>.json</code> com as questões. Cada arquivo se torna uma prova na sua pilha.</p>
+    </header>
+
+    <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Importar arquivos JSON de quiz">
+      <svg class="dropzone-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M24 6V30M24 30L16 22M24 30L32 22" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 32V36C8 38.2091 9.79086 40 12 40H36C38.2091 40 40 38.2091 40 36V32" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <p class="dropzone-text"><strong>Arraste os arquivos aqui</strong> ou clique para escolher</p>
+      <p class="dropzone-hint">Aceita múltiplos arquivos .json simultaneamente</p>
+      <input type="file" id="fileInput" accept=".json,application/json" multiple hidden>
+    </div>
+
+    <p class="import-error" id="importError" role="alert" hidden></p>
+
+    <div class="quiz-stack" id="quizStack" hidden>
+      <h2 class="stack-label">Provas na pilha <span id="stackCount">0</span></h2>
+      <ul class="stack-list" id="stackList"></ul>
+    </div>
+
+    <button class="btn-primary" id="startBtn" disabled>Iniciar prova selecionada</button>
+
+    <details class="format-help">
+      <summary>Ver estrutura esperada do JSON</summary>
+      <pre><code>{
+  "quiz": "Aula 2",
+  "disciplina": "Redes I",
+  "questoes": [
+    {
+      "questao": "questao1",
+      "perg1": "pergunta 1",
+      "perg2": "pergunta 2",
+      "perg3": "pergunta 3",
+      "resposta": 2
+    }
+  ]
+}</code></pre>
+    </details>
+  </section>
+
+  <!-- ========== TELA 2: QUIZ ========== -->
+  <section class="screen" id="screen-quiz" data-screen="quiz" hidden>
+    <header class="sheet-header quiz-header">
+      <div class="stamp" id="disciplinaStamp">Disciplina</div>
+      <h1 class="title-display" id="quizTitle">Aula</h1>
+      <p class="question-counter">
+        Questão <span id="qCurrent">1</span> de <span id="qTotal">0</span>
+      </p>
+      <div class="progress-track" aria-hidden="true">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+    </header>
+
+    <div class="question-card" id="questionCard">
+      <p class="question-text" id="questionText">Carregando questão…</p>
+      <div class="options-list" id="optionsList" role="radiogroup"></div>
+    </div>
+
+    <div class="quiz-nav">
+      <button class="btn-ghost" id="prevBtn">← Anterior</button>
+      <button class="btn-primary" id="nextBtn" disabled>Próxima →</button>
+    </div>
+  </section>
+
+  <!-- ========== TELA 3: RESULTADO ========== -->
+  <section class="screen" id="screen-result" data-screen="result" hidden>
+    <div class="grade-stamp" id="gradeStamp">
+      <span class="grade-value" id="gradeValue">0/0</span>
+      <span class="grade-label" id="gradeLabel">CORRIGIDO</span>
+    </div>
+
+    <header class="sheet-header">
+      <span class="eyebrow" id="resultDisciplina">Disciplina</span>
+      <h1 class="title-display" id="resultTitle">Resultado</h1>
+      <p class="subtitle" id="resultSummary">Você acertou X de Y questões.</p>
+    </header>
+
+    <ol class="review-list" id="reviewList"></ol>
+
+    <div class="quiz-nav">
+      <button class="btn-ghost" id="retryBtn">Refazer esta prova</button>
+      <button class="btn-primary" id="backBtn">Voltar à pilha</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="script_indx.js"></script>
+</body>
+</html>

@@ -1,0 +1,629 @@
+/* =========================================================
+   FOLHA DE PROVA — design tokens
+   ========================================================= */
+:root {
+  --paper:        #F7F5F0;
+  --paper-dim:     #EFEBE2;
+  --ink:           #1C1B19;
+  --ink-soft:      #5B5852;
+  --rule:          #D8D3C4;
+  --green:         #2B4C3F;
+  --green-soft:    #E4EBE6;
+  --red:           #8B3A2B;
+  --red-soft:      #F3E4DD;
+  --gold:          #B8893B;
+
+  --font-display:  "Source Serif 4", Georgia, serif;
+  --font-body:      "Source Serif 4", Georgia, serif;
+  --font-mono:      "IBM Plex Mono", "SF Mono", monospace;
+
+  --radius:         2px;
+  --shadow-sheet:   0 1px 0 rgba(28,27,25,0.04), 0 24px 48px -24px rgba(28,27,25,0.25);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper-dim);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 56px 20px 80px;
+  position: relative;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(28,27,25,0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* ---------- stacked paper effect behind the main sheet ---------- */
+.paper-stack {
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  width: min(640px, calc(100% - 40px));
+  pointer-events: none;
+}
+.paper-sheet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+.sheet-1 { transform: translateX(-50%) rotate(-1.6deg) translateY(10px); opacity: 0.9; }
+.sheet-2 { transform: translateX(-50%) rotate(1.4deg) translateY(16px); opacity: 0.6; }
+
+/* ---------- the main exam sheet ---------- */
+.exam-sheet {
+  position: relative;
+  width: min(640px, 100%);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sheet);
+  padding: 48px 44px 44px;
+  overflow: hidden;
+}
+
+.exam-sheet::before {
+  /* perforated edge along the top, like a tear-off exam sheet */
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background-image: radial-gradient(circle at center, var(--paper-dim) 2.5px, transparent 2.6px);
+  background-size: 16px 6px;
+  background-repeat: repeat-x;
+}
+
+@media (max-width: 560px) {
+  .exam-sheet { padding: 36px 22px 32px; }
+}
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 10px;
+}
+
+.title-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(28px, 4vw, 38px);
+  line-height: 1.1;
+  margin: 0 0 10px;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0 0 32px;
+  max-width: 46ch;
+}
+
+.subtitle code {
+  font-family: var(--font-mono);
+  background: var(--paper-dim);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.sheet-header { margin-bottom: 28px; }
+
+/* =========================================================
+   PAGE NAV (Quiz / Mapa Mental)
+   ========================================================= */
+.page-nav {
+  display: flex;
+  gap: 4px;
+  margin: -4px 0 24px;
+}
+
+.page-nav-link {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-soft);
+  padding: 6px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  transition: border-color 140ms ease, color 140ms ease, background 140ms ease;
+}
+
+.page-nav-link:hover {
+  border-color: var(--green);
+  color: var(--green);
+  background: var(--green-soft);
+}
+
+.page-nav-link.is-active {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.page-nav-link.is-active:hover {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--paper);
+}
+
+/* =========================================================
+   SCREENS
+   ========================================================= */
+.screen { animation: sheet-in 360ms ease both; }
+
+@keyframes sheet-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================================
+   DROPZONE
+   ========================================================= */
+.dropzone {
+  border: 1.5px dashed var(--rule);
+  border-radius: var(--radius);
+  padding: 40px 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease;
+  color: var(--ink);
+}
+
+.dropzone:hover,
+.dropzone:focus-visible {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+
+.dropzone:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+
+.dropzone.dragover {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+
+.dropzone-icon {
+  width: 34px;
+  height: 34px;
+  color: var(--green);
+  margin-bottom: 12px;
+}
+
+.dropzone-text {
+  margin: 0 0 4px;
+  font-size: 16px;
+}
+.dropzone-text strong { font-weight: 600; }
+
+.dropzone-hint {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
+
+.import-error {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--red);
+  background: var(--red-soft);
+  border: 1px solid var(--red);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin: 16px 0 0;
+}
+
+/* =========================================================
+   QUIZ STACK (lista de provas importadas)
+   ========================================================= */
+.quiz-stack { margin-top: 32px; }
+
+.stack-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 12px;
+}
+.stack-label span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 10px;
+  font-size: 11px;
+  margin-left: 4px;
+}
+
+.stack-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stack-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  cursor: pointer;
+  background: var(--paper);
+  transition: border-color 140ms ease, background 140ms ease;
+}
+
+.stack-item:hover { border-color: var(--green); }
+
+.stack-item input[type="radio"] {
+  accent-color: var(--green);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.stack-item.selected {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+
+.stack-item-info { flex: 1; min-width: 0; }
+
+.stack-item-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 0 2px;
+}
+
+.stack-item-meta {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.stack-item-remove {
+  flex-shrink: 0;
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+.stack-item-remove:hover { color: var(--red); background: var(--red-soft); }
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+.btn-primary {
+  display: block;
+  width: 100%;
+  margin-top: 28px;
+  padding: 14px 20px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.btn-primary:hover:not(:disabled) { background: var(--green); }
+.btn-primary:active:not(:disabled) { transform: scale(0.99); }
+
+.btn-primary:disabled {
+  background: var(--rule);
+  color: var(--ink-soft);
+  cursor: not-allowed;
+}
+
+.btn-primary:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+
+.btn-ghost {
+  padding: 14px 20px;
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: border-color 140ms ease, background 140ms ease;
+}
+.btn-ghost:hover { border-color: var(--ink); background: var(--paper-dim); }
+.btn-ghost:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+
+/* =========================================================
+   FORMAT HELP (details/summary)
+   ========================================================= */
+.format-help {
+  margin-top: 28px;
+  border-top: 1px solid var(--rule);
+  padding-top: 16px;
+}
+.format-help summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  letter-spacing: 0.04em;
+}
+.format-help summary:hover { color: var(--ink); }
+.format-help pre {
+  margin: 14px 0 0;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+.format-help code { font-family: var(--font-mono); }
+
+/* =========================================================
+   QUIZ SCREEN
+   ========================================================= */
+.quiz-header { position: relative; }
+
+.stamp {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+  border: 1.5px solid var(--green);
+  border-radius: 3px;
+  padding: 3px 10px;
+  margin-bottom: 14px;
+  transform: rotate(-1deg);
+}
+
+.question-counter {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0 0 10px;
+}
+.question-counter span { color: var(--ink); font-weight: 600; }
+
+.progress-track {
+  width: 100%;
+  height: 3px;
+  background: var(--rule);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--green);
+  border-radius: 2px;
+  transition: width 280ms ease;
+  width: 0%;
+}
+
+.question-card { margin-bottom: 28px; }
+
+.question-text {
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0 0 22px;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1.5px solid var(--rule);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 140ms ease, background 140ms ease;
+  text-align: left;
+  background: var(--paper);
+  font-family: var(--font-body);
+  font-size: 15.5px;
+  color: var(--ink);
+  width: 100%;
+}
+
+.option:hover { border-color: var(--green); background: var(--green-soft); }
+.option:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+.option-marker {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.5px solid var(--rule);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  transition: all 140ms ease;
+}
+
+.option.selected {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+.option.selected .option-marker {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--paper);
+}
+
+/* feedback states once answered */
+.option.correct {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+.option.correct .option-marker {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--paper);
+}
+.option.incorrect {
+  border-color: var(--red);
+  background: var(--red-soft);
+}
+.option.incorrect .option-marker {
+  background: var(--red);
+  border-color: var(--red);
+  color: var(--paper);
+}
+.option.disabled-option { cursor: default; }
+.option.disabled-option:hover { background: inherit; }
+
+.quiz-nav {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+.quiz-nav .btn-ghost { flex: 1; }
+.quiz-nav .btn-primary { flex: 1; margin-top: 0; }
+
+/* =========================================================
+   RESULT SCREEN
+   ========================================================= */
+.grade-stamp {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 108px;
+  height: 108px;
+  border: 3px solid var(--green);
+  border-radius: 50%;
+  transform: rotate(8deg);
+  color: var(--green);
+  background: rgba(43,76,63,0.03);
+}
+.grade-stamp.fail { border-color: var(--red); color: var(--red); background: rgba(139,58,43,0.03); }
+
+.grade-value {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+}
+.grade-label {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  margin-top: 4px;
+}
+
+@media (max-width: 560px) {
+  .grade-stamp { position: static; transform: rotate(-2deg); margin: 0 auto 20px; }
+}
+
+#screen-result .sheet-header { padding-right: 0; }
+
+.review-list {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.review-item {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+.review-item.is-correct { border-left: 3px solid var(--green); }
+.review-item.is-wrong { border-left: 3px solid var(--red); }
+
+.review-q {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+.review-answer {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  margin: 0;
+  line-height: 1.6;
+}
+.review-answer .label { color: var(--ink-soft); }
+.review-answer .your-answer.wrong { color: var(--red); }
+.review-answer .your-answer.right { color: var(--green); }
+.review-answer .correct-answer { color: var(--green); }
+
+.review-icon {
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 4px;
+}

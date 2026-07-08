@@ -1,0 +1,27 @@
+{
+  "quiz": "Aula 2",
+  "disciplina": "Redes I",
+  "questoes": [
+    {
+      "questao": "Qual protocolo é responsável pela resolução de nomes de domínio em endereços IP?",
+      "perg1": "HTTP",
+      "perg2": "DNS",
+      "perg3": "FTP",
+      "resposta": 2
+    },
+    {
+      "questao": "Em qual camada do modelo OSI o protocolo TCP atua?",
+      "perg1": "Camada de Transporte",
+      "perg2": "Camada de Aplicação",
+      "perg3": "Camada Física",
+      "resposta": 1
+    },
+    {
+      "questao": "Qual é a função principal de um roteador?",
+      "perg1": "Armazenar páginas web",
+      "perg2": "Encaminhar pacotes entre redes diferentes",
+      "perg3": "Criptografar dados",
+      "resposta": 2
+    }
+  ]
+}
